@@ -74,6 +74,9 @@ let deletetask = (task)=>
 
 
 }
+
+
+//running functions
 deletetask("lean JS!");
 addtask("learn JS!");
 listAllTasks();
