@@ -43,13 +43,40 @@ let ex = ages.map((item)=>{
 let mytasks = [];
 let addtask = (task) =>
 {
-    mytasks.push(task);
+    mytasks.push(task);// adding to the veriable
     console.log("item" + task + "has been added to tasks");
     return mytasks.length;
 
 }
 
-listall
+let listAllTasks = ()=> 
+{
+    mytasks.forEach((items)=>{
+        console.log(items);
+
+    });
+}
+
+let deletetask = (task)=>
+{   
+    if(index >-1){
+    //^^if its more then -1 then go
+    
+   let index =  mytasks.indexOf(task);
+   mytasks.splice(index, 1);// how many items to delete
+   console.log("item"+task+ "has been removed");//log to the user
+   
+    }
+    else {
+        console.log("item"+ task + "not found")
+    }
+   return mytasks.length;
+
+
+}
+deletetask("lean JS!");
+addtask("learn JS!");
+listAllTasks();
 
 console.log(ex);
 
