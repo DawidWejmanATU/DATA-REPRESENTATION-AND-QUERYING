@@ -39,6 +39,18 @@ let ex = ages.map((item)=>{
 
 })
 
+
+let mytasks = [];
+let addtask = (task) =>
+{
+    mytasks.push(task);
+    console.log("item" + task + "has been added to tasks");
+    return mytasks.length;
+
+}
+
+listall
+
 console.log(ex);
 
 
