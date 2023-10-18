@@ -1,4 +1,4 @@
-import BookItem from "components/bookItem";
+import BookItem from "./bookitem";
 
 function Books(props){
 

@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-function BookItem(props) {
+function Bookitem(props) {
 
     return (
         <div>
@@ -23,4 +23,4 @@ function BookItem(props) {
 
 }
 
-export default BookItem;
+export default Bookitem;
