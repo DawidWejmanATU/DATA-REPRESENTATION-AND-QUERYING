@@ -1,10 +1,10 @@
-import BookItem from "./bookitem";
+import BookItem from "./bookItem";
 
 function Books(props){
 
     return props.myBooks.map(
         (book)=>{
-            return <Bookitem myBook={book} key={book.isbn}></Bookitem>
+            return <BookItem myBook={book} key={book.isbn}></BookItem>
         }
         
     );
