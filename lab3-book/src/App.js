@@ -21,6 +21,7 @@ function App() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/create">Create</Nav.Link>
             <Nav.Link href="/read">Read</Nav.Link>
+            {/**navbar headings to click pages */}
           </Nav>
         </Container>
       </Navbar>
@@ -29,9 +30,7 @@ function App() {
         <Route path='/read' element={<Read></Read>}></Route>
         <Route path='/create' element={<Create></Create>}></Route>
       </Routes>
-      {/* <Header></Header>
-      <Content></Content>
-      <Footer /> */}
+      {/* route showing*/}
     </div>
     </BrowserRouter>
   );

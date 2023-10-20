@@ -5,6 +5,8 @@ function Books(props){
     return props.myBooks.map(
         (book)=>{
             return <BookItem myBook={book} key={book.isbn}></BookItem>
+          {/*returning books from bookitem*/}
+
         }
         
     );
@@ -12,3 +14,4 @@ function Books(props){
 }
 
 export default Books;
+//exporting bookitem function and parameter!!

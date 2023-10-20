@@ -39,7 +39,7 @@ function Read() {
 
     return (
         <div>
-            <h2>Hello from Read Component!</h2>
+            <h2>read component its from</h2>
             <Books myBooks={data}></Books>
         </div>
     );

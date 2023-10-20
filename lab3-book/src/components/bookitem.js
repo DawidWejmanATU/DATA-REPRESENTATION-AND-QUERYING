@@ -15,12 +15,10 @@ function BookItem(props) {
                     </blockquote>
                 </Card.Body>
             </Card>
-            {/* <h3>{props.myBook.title}</h3>
-            <img src={props.myBook.thumbnailUrl}></img>
-            <p>{props.myBook.authors[0]}</p> */}
+           {/* retorning mybook */}
         </div>
     );
 
 }
 
-export default BookItem;
+export default BookItem;//exporting bookitem function and parameter!!

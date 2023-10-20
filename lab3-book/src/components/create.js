@@ -2,9 +2,10 @@ function Create(){
 
     return(
         <div>
-            <h2>Hello from create Component!</h2>
+            <h2>Hello from create Component file xD !</h2>
+            {/**information to show on the screen */}
         </div>
     );
 
 }
-export default Create;
+export default Create;//exporting function 'create' 
